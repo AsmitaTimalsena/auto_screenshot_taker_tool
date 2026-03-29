@@ -1,3 +1,31 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "auto_screenshot_tool"
+version = "0.1.0"
+authors = [
+  { name = "Asmita Timalsena", email = "asmitatimalsena04@gmail.com" },
+]
+description = "A Python tool to automatically capture screenshots at intervals"
+readme = "README.md"
+requires-python = ">=3.6"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+license = { text = "MIT" }
+
+dependencies = [
+    "pyautogui"
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/AsmitaTimalsena/auto_screenshot_taker_tool.git"
+
